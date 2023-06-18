@@ -1,0 +1,66 @@
+.video-footer {
+    position: relative;
+    bottom: 20%;
+    color: #fff;
+    padding: 10px;
+}
+
+.video-footer-description {
+    width: 80%;
+}
+
+.video-footer-description h4, p {
+    margin-bottom: 10px;
+}
+
+.video-footer-music {
+    display: flex;
+    align-items: center;
+}
+
+.video-footer-music img {
+    height: 16px;
+}
+
+.video-footer-music span {
+    margin-right: 10px;
+}
+
+.video-footer-music-name {
+    width: 80%;
+    overflow: hidden;
+}
+
+.video-footer-music-name p{
+    animation: moveTheText 5s infinite linear;
+    margin-bottom: 0;
+}
+
+.video-footer-vinyl {
+    position: absolute;
+    bottom: 4.5%;
+    right: 13px;
+    right: 2.5%;
+    height: 32px;
+    filter: invert(1);
+    
+    animation: spinTheVinyl 4s infinite linear;
+}
+
+@keyframes spinTheVinyl {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes moveTheText {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

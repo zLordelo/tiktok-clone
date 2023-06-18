@@ -1,0 +1,28 @@
+.video-sidebar {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    right: 2%;
+    color: #fff;
+}
+
+.video-sidebar-option {
+    text-align: center;
+}
+
+.video-sidebar-option span{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.share {
+    transform: scaleX(-1);
+}
+
+.video-sidebar-option:nth-child(1) .opt:hover {
+    transform: scale(1.1);
+}
+
+.opt {
+    cursor: pointer;
+}
