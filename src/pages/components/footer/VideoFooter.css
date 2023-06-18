@@ -34,6 +34,7 @@
 .video-footer-music-name p{
     animation: moveTheText 5s infinite linear;
     margin-bottom: 0;
+    text-wrap: nowrap;
 }
 
 .video-footer-vinyl {

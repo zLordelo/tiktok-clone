@@ -9,10 +9,6 @@ html {
   place-items: center;
 }
 
-/* html {
-  font-size: 62.5%;
-} */
-
 .app-videos {
   height: 800px;
   width: 80%;
@@ -35,4 +31,10 @@ html {
 .app-videos{
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@media screen and (max-width: 768px) {
+  .app-videos {
+    width: 100%;
+  }
 }
